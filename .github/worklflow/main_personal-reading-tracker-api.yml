@@ -28,8 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: java-app
-          path: 'target/*.jar'   
-          # comment added
+          path: 'target/*.jar'
 
   deploy:
     runs-on: ubuntu-latest
